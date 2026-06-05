@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Samih Eisa is a postdoctoral researcher at INESC-ID working on digital twins for healthcare, gait analysis, IoT security, blockchain systems, and remote patient monitoring." />
-  <title>Samih Eisa — Researcher</title>
+  <meta name="description" content="Samih Eisa is a postdoctoral researcher at INESC-ID working on trustworthy adaptive digital twins, human-centred intelligent systems, healthcare monitoring, VVUQ, IoT trust, and secure digital infrastructures." />
+  <title>Samih Eisa — Trustworthy Adaptive Digital Twins</title>
   <style>
     :root {
       --bg: #eef2f7;
@@ -56,7 +56,7 @@
     .title p {
       margin: 8px 0 0;
       color: var(--muted);
-      max-width: 70ch;
+      max-width: 74ch;
       line-height: 1.6;
     }
     nav {
@@ -108,11 +108,12 @@
       margin-top: 18px;
     }
     @media (max-width: 860px) { .two-col { grid-template-columns: 1fr; } }
-    code.inline {
-      background: #eff6ff;
-      padding: 2px 6px;
-      border-radius: 6px;
-      border: 1px solid #bfdbfe;
+    .tagline {
+      display: inline-block;
+      margin-bottom: 8px;
+      color: var(--accent);
+      font-weight: 700;
+      letter-spacing: 0.01em;
     }
     footer { margin-top: 22px; color: var(--muted); font-size: 14px; }
   </style>
@@ -124,16 +125,17 @@
         <img src="./resources/SAM.png" alt="Samih Eisa" class="photo" />
         <div class="title">
           <h1>Samih Eisa</h1>
-          <p>Postdoctoral Researcher | INESC-ID, University of Lisbon.</p>
           <p>
-            I investigate the scientific foundations of trustworthy healthcare digital twins. My research combines healthcare sensing, distributed systems, intelligent data-driven modelling, and secure digital infrastructures to support personalized medicine, remote monitoring, and clinical decision-making. 
+            <span class="tagline">Postdoctoral Researcher | INESC-ID, University of Lisbon</span><br />
+            I investigate how digital representations of evolving real-world systems can remain accurate, trustworthy, and useful for decision-making. My current research focuses on <strong>trustworthy adaptive digital twins</strong>, with applications in healthcare monitoring, human-centred intelligent systems, and future Virtual Human Twin ecosystems.
           </p>
         </div>
       </div>
 
       <nav>
         <a class="pill" href="#research">Research</a>
-        <!--<a class="pill" href="#projects">Projects</a>-->
+        <a class="pill" href="#vision">Vision</a>
+        <a class="pill" href="#projects">Projects</a>
         <a class="pill" href="#publications">Publications</a>
         <a class="pill" href="#service">Service</a>
         <a class="pill" href="#contact">Contact</a>
@@ -144,14 +146,13 @@
       <section id="research">
         <h2>Research</h2>
         <p class="muted">
-          My research focuses on how digital representations of patients can be created, maintained, validated, and trusted throughout their lifecycle. I am particularly interested in the mechanisms that enable healthcare digital twins to remain synchronized with real-world patient data while supporting reliable and clinically meaningful decisions.
+          My work lies at the intersection of computer science, digital health, distributed systems, and trustworthy intelligent technologies. I am particularly interested in how continuously evolving digital twins can remain synchronized with the systems or people they represent, while providing credible and interpretable support for human decision-making.
         </p>
-        <h2>Research Themes</h2>
         <ul>
-          <li><strong>Trustworthy Healthcare Digital Twins:</strong> Patient-centric digital twins, adaptive updating, synchronization mechanisms, and longitudinal patient modelling.</li>
-          <li><strong>Model Credibility and Validation:</strong> Verification, validation, uncertainty quantification (VVUQ), runtime monitoring, and credibility assessment of digital twin systems.</li>
-          <li><strong>Healthcare Monitoring and Behavioural Modelling:</strong> Gait analysis, remote patient monitoring, Ambient Assisted Living, and sensor-based assessment of health conditions.</li>
-          <li><strong>Secure and Distributed Digital Infrastructures:</strong> Distributed systems, IoT trust, blockchain technologies, privacy-preserving architectures, and dependable data exchange.</li>
+          <li><strong>Trustworthy adaptive digital twins:</strong> continuous updating, synchronization, model validity, and lifecycle trustworthiness.</li>
+          <li><strong>Healthcare and Virtual Human Twins:</strong> patient-centred models for monitoring, gait analysis, remote assessment, and clinical decision support.</li>
+          <li><strong>Credibility and uncertainty:</strong> verification, validation, uncertainty quantification, confidence communication, and model reliability.</li>
+          <li><strong>Secure digital infrastructures:</strong> IoT trust, distributed systems, blockchain-enabled data sharing, provenance, and auditable updates.</li>
         </ul>
       </section>
 
@@ -159,15 +160,15 @@
         <h2>Highlights</h2>
         <div class="item">
           <h3>Current focus</h3>
-          <p>Gait-Twin: Developing adaptive healthcare digital twins for gait assessment and monitoring of neurodegenerative disorders.</p>
+          <p>Developing a research agenda around trustworthy adaptive digital twins for human-centred and healthcare systems.</p>
         </div>
         <div class="item">
-          <h3>Research Direction</h3>
-          <p>Investigating synchronization, credibility assessment, and continuous adaptation mechanisms for trustworthy medical digital twins.</p>
+          <h3>Gait-Twin direction</h3>
+          <p>Exploring continuously updated gait digital twins for mobility monitoring and neurodegenerative conditions.</p>
         </div>
         <div class="item">
-          <h3>Background</h3>
-          <p>Research experience spanning healthcare monitoring, Ambient Assisted Living, IoT systems, distributed computing, blockchain technologies, and secure digital infrastructures.</p>
+          <h3>Research foundation</h3>
+          <p>Experience in Ambient Assisted Living, indoor positioning, IoT security, blockchain systems, and secure data exchange.</p>
         </div>
       </section>
     </div>
@@ -175,56 +176,86 @@
     <section id="about" style="margin-top:18px;">
       <h2>About</h2>
       <p class="muted">
-       I am a postdoctoral researcher at INESC-ID, University of Lisbon. My research career has evolved through healthcare technologies, Ambient Assisted Living, distributed systems, computer vision, IoT security, and blockchain-enabled infrastructures.
-
-      Although these topics appear diverse, they share a common objective: understanding how reliable digital representations of real-world entities can be created and maintained. This trajectory has naturally converged toward healthcare digital twins, where sensing, modelling, synchronization, trust, and validation must be integrated into coherent patient-centred systems.
-
-      I received my PhD in Computer Science from the University of Minho, where I developed data-driven methods for modelling behavioural patterns of elderly individuals living independently using sensor technologies.
+        I received my Ph.D. in Computer Science from the University of Minho in 2018, where I developed data-driven methods for modelling behavioural patterns in Ambient Assisted Living environments. My research career has since developed through positions at INESC-ID, Centro de Computação Gráfica, Centro Algoritmi, and academic institutions in Portugal, Malaysia, and Sudan.
+      </p>
+      <p class="muted">
+        Although my work has crossed several domains, a common thread connects it: the creation of digital representations of real-world entities that can support monitoring, trust, and decision-making. This trajectory now converges toward trustworthy adaptive digital twins and human-centred intelligent systems.
       </p>
     </section>
 
     <section id="vision" style="margin-top:18px;">
       <h2>Research Vision</h2>
       <p class="muted">
-        My long-term vision is to contribute to the scientific foundations required for the safe adoption of healthcare digital twins in clinical practice.
-
-I am particularly interested in developing trustworthy digital twins that continuously evolve with patient data, provide transparent and credible predictions, and support personalized healthcare interventions. To achieve this, I investigate the intersection of healthcare sensing, distributed systems, formal modelling, verification, and intelligent adaptive systems.
+        My long-term vision is to contribute to the scientific foundations of digital twins that evolve continuously while remaining trustworthy. I am especially interested in how such systems can assess their own validity, communicate uncertainty, and support human decisions in domains where reliability matters.
+      </p>
+      <p class="muted">
+        In healthcare, this vision points toward Virtual Human Twins that integrate patient data, computational models, and trustworthy AI-assisted reasoning to support personalized, preventive, and clinically meaningful decision-making.
       </p>
     </section>
 
     <section id="ongoing" style="margin-top:18px;">
       <h2>Ongoing Work</h2>
       <div class="item">
-        <h3>Synchronization and Continuous Adaptation</h3>
+        <h3>Continuous Updating and Synchronization</h3>
         <p>
-          Investigating mechanisms that enable healthcare digital twins to remain synchronized with evolving patient conditions and heterogeneous data sources.
+          Investigating how digital twins can remain aligned with evolving physical systems, patient states, and real-world data streams over time.
         </p>
       </div>
-      
       <div class="item">
-        <h3>Credibility Assessment and Validation</h3>
+        <h3>Trustworthiness and Credibility Assessment</h3>
         <p>
-          Exploring frameworks for verification, validation, uncertainty quantification, and credibility assessment in medical digital twins.
+          Exploring methods for assessing validity, uncertainty, and confidence in adaptive digital twins, with attention to VVUQ and runtime assurance.
         </p>
       </div>
-
       <div class="item">
-        <h3>Trust, Security and Privacy</h3>
+        <h3>Healthcare Digital Twins and Gait Analysis</h3>
         <p>
-          Studying trustworthy architectures, privacy-preserving mechanisms, and secure data integration for healthcare digital twin ecosystems.
+          Developing ideas for patient-centred gait digital twins that support remote monitoring, longitudinal mobility assessment, and clinical interpretation.
         </p>
       </div>
-
       <div class="item">
-        <h3>Formal Modelling and Verification</h3>
+        <h3>Secure and Auditable Digital Infrastructures</h3>
         <p>
-          Exploring formal methods and runtime verification approaches to improve the reliability, consistency, and trustworthiness of digital twins used in healthcare settings.
+          Studying data governance, provenance, consent, and secure update mechanisms for trustworthy digital twin ecosystems.
         </p>
       </div>
-
     </section>
 
-      <section id="publications" style="margin-top:18px;">
+    <section id="projects" style="margin-top:18px;">
+      <h2>Selected Projects and Research Directions</h2>
+      <div class="item">
+        <h3>BLOCKCHAIN.PT – Decentralizing Portugal with Blockchain</h3>
+        <p>
+          Contributing to research on blockchain-based trustworthy digital infrastructures, secure data exchange, and dependable distributed systems.
+        </p>
+      </div>
+      <div class="item">
+        <h3>HealthSteps / Gait-Twin</h3>
+        <p>
+          Developing a research direction on continuously updated gait digital twins for mobility monitoring, uncertainty-aware interpretation, and clinical decision support.
+        </p>
+      </div>
+      <div class="item">
+        <h3>VHT@INESC-ID</h3>
+        <p>
+          Exploring how INESC-ID expertise in health technologies, AI, security, privacy, distributed systems, and data infrastructures can contribute to future Virtual Human Twin research.
+        </p>
+      </div>
+      <div class="item">
+        <h3>SureThing – Location Certification for IoT</h3>
+        <p>
+          Conducted research on trustworthy location certification mechanisms for IoT devices and distributed environments.
+        </p>
+      </div>
+      <div class="item">
+        <h3>Ambient Assisted Living and Smart Environments</h3>
+        <p>
+          Developed and contributed to systems for behaviour monitoring, indoor positioning, smart homes, and human-centred digital environments.
+        </p>
+      </div>
+    </section>
+
+    <section id="publications" style="margin-top:18px;">
       <h2>Selected Publications</h2>
       <div class="item">
         <h3>CC2C: Confidential Channel-to-Channel Data Exchange in a Permissioned Blockchain</h3>
@@ -239,7 +270,7 @@ I am particularly interested in developing trustworthy digital twins that contin
         <p class="muted">A. Avelar, Samih Eisa, O. Remédios, and M. L. Pardal. EDCC Companion, 2025.</p>
       </div>
       <div class="item">
-        <h3>Locaas: Location-Certification-as-a-Service</h3>
+        <h3>LoCaaS: Location-Certification-as-a-Service</h3>
         <p class="muted">Lucas H. Vicente, Samih Eisa, and Miguel L. Pardal. IEEE NCA, 2022.</p>
       </div>
       <div class="item">
@@ -257,68 +288,44 @@ I am particularly interested in developing trustworthy digital twins that contin
         <ul>
           <li>Member of the Distributed, Parallel, and Secure Systems Group, INESC-ID</li>
           <li>Former member of the Computer Vision Group at CCG and Ubicomp@UMinho</li>
-          <li>Reviewer for IEEE JBHI, NCA, IUCC-CSS, IPIN, IFIP SEC, SAC, NOMS/AIMLOps and related venues</li>
-          <li>Evaluation Committee Member, EvAAL Indoor Localization Benchmarking Initiative</li>
-          <li>Co-supervisor of Master's students and contributor to scientific publications</li>
+          <li>Reviewer for IEEE JBHI, NCA, IUCC-CSS, IPIN, IFIP SEC, SAC, and NOMS/AIMLOps</li>
+          <li>Evaluation Committee Member, EvAAL Indoor Localization Competition</li>
+          <li>Co-adviser for Master's students, supporting dissertation completion and scientific publications</li>
         </ul>
-
       </section>
 
       <section id="teaching">
         <h2>Teaching &amp; Outreach</h2>
         <ul>
-          <li>Higher education teaching in distributed systems, databases, networking, and software development</li>
-          <li>Development of educational materials for undergraduate computer science courses</li>
-          <li>Programming instructor and mentor in outreach activities for school students</li>
-          <li>Organizer and coordinator of programming competitions and computing education initiatives</li>
+          <li>Taught programming, databases, distributed systems, and web development in higher education</li>
+          <li>Developed teaching materials for undergraduate computer science students</li>
+          <li>Instructor in programming competitions for school students</li>
+          <li>Led programming competition activities for undergraduate students</li>
         </ul>
       </section>
     </div>
-<!--
-    <section id="impact" style="margin-top:18px;">
-      <h2>Impact &amp; Applications</h2>
-      <p class="muted">
-        The central motivation of my research is to develop digital and data-driven systems that are useful beyond the laboratory. My work has
-        addressed healthcare monitoring, Ambient Assisted Living, indoor positioning, IoT trust, and blockchain-based dependable data systems.
-        Looking forward, I aim to contribute to patient-centered digital twins that support remote assessment, rehabilitation, and more timely
-        interventions in real-world healthcare settings.
-      </p>
-    </section>
-
-
-    <section id="cv" style="margin-top:18px;">
-      <h2>Narrative CV</h2>
-      <p class="muted">
-        A narrative CV version highlighting my contributions to knowledge generation, team development, community service, and broader societal
-        impact is available upon request and will be linked here in a future update.
-      </p>
-    </section>
--->
 
     <section id="contact" style="margin-top:18px;">
       <h2>Contact</h2>
       <p class="muted">
-        Samih Eisa <br>
-        Postdoctoral Researcher <br>
-        INESC-ID, Instituto Superior Técnico, University of Lisbon <br>
         Email: <a href="mailto:samih.eisa@inesc-id.pt">samih.eisa@inesc-id.pt</a><br/>
+        Affiliation: INESC-ID, Instituto Superior Técnico, University of Lisbon<br/>
         Location: Lisbon, Portugal
       </p>
     </section>
-
 
     <section id="links" style="margin-top:18px;">
       <h2>Links</h2>
       <div class="links">
         <a class="pill" href="https://scholar.google.com/citations?user=Rn5R5c0AAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
         <a class="pill" href="https://orcid.org/0000-0003-0972-4171" target="_blank" rel="noreferrer">ORCID</a>
-        <a class="pill" href="https://github.com/SamihEisa">GitHub</a>
-        <a class="pill" href="./resources/CV.pdf">CV (PDF)</a>
+        <a class="pill" href="https://github.com/SamihEisa" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="pill" href="./resources/cv">CV (PDF)</a>
       </div>
     </section>
 
     <footer>
-      © <span id="y"></span> Samih Eisa · Built with plain HTML · <span class="muted">Last updated: April 2026</span>
+      © <span id="y"></span> Samih Eisa · Built with plain HTML · <span class="muted">Last updated: June 2026</span>
     </footer>
   </div>
 
